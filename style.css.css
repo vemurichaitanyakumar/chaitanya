@@ -1,0 +1,47 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background-imaage: url(nature.jpg);
+	height: 100vh;
+	background_size: cover;
+	background_position: center;
+
+}
+.main_nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 150px;
+}
+.main-nav li.active a
+{
+	border: 1px solid white;
+
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+
+}
